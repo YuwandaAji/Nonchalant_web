@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fffaf6;
+}
+
+/*Navbar Start*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #5F3C25;
+    color: white;
+    padding: 10px 30px;
+}
+
+nav h1{
+    text-align: center;
+    font-family:"Poppins";
+}
+
+.logo img{
+    border-radius: 50%;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    transition: color ease 0.2s;
+}
+
+.user:hover {
+    color: black;
+} 
+
+.user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 150px;
+    z-index: 10;
+}
+
+.dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.dropdown li {
+    padding: 10px 15px;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: #5a321d;
+    display: block;
+}
+
+.dropdown li a:hover {
+    background: #f4f1ef;
+}
+
+.hidden {
+    display: none;
+}
+/*Navbar End*/
+
+/*topside Start*/
+
+topside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.new_but {
+    text-decoration: none;
+    background: #5F3C25;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    transition: filter 0.2s ease;
+}
+
+.new_but:hover{
+    filter: brightness(0.85);
+}
+
+.search {
+    display: flex;          
+    align-items: center;
+    border: 1px solid #5F3C25;
+    border-radius: 8px;
+    overflow: hidden;               
+}
+
+.search input {
+    flex: 5;                
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;     
+    outline: none;
+}
+
+.search button {
+    padding: 7px 10px;
+    border: none;
+    background-color: #5F3C25;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: filter 0.2s ease;
+}
+
+.search button:hover{
+    filter: brightness(0.85);
+}
+/*topside End*/
+
+/*Main Start*/
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
+}
+
+.column {
+    background: #fff;
+    flex: 1;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.column h2 {
+    color: #5F3C25;
+    margin-bottom: 5px;
+}
+
+.card {
+    background: #f6f0ed;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.tags {
+    margin-top: 8px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.tag.cold { background: #3498db; }
+.tag.hot { background: #e74c3c; }
+.tag.makanan { background: #5F3C25; }
+
+.Kategori {
+    color: #5F3C25;
+}
+
+/*Main End*/

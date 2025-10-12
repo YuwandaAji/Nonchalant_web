@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kasir detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="kasir_detail.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Navbar Start-->
+    <nav>
+        
+        <div class="logo">
+            <a href="#">
+                <img src="D:\My Data\Tugas-tugas Kuliah\Pemograman web\project nonchalant coffe\logo_new.jpg" alt="logo" width="55" height="55">
+            </a>
+        </div>
+
+        <h1>DETAIL PESANAN</h1>
+
+    </nav>    
+    <!--Navbar End-->
+
+    <!--Topside Start-->
+    <topside>
+
+        <div class="breadcrumb">
+            <a href="#">Home</a>
+            <span class="material-symbols-outlined">chevron_right</span>
+            <a href="#">Qin Shi Huang</a>
+        </div>
+
+        <div class="cust_name">
+            <h2><b>Qin Shi Huang</b></h2>
+        </div>
+
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-custom active">New</button>
+            <button type="button" class="btn btn-custom">Diproses</button>
+            <button type="button" class="btn btn-custom">Delivery</button>
+            <button type="button" class="btn btn-custom">Selesai</button>
+        </div>
+
+    </topside>
+    <!--Topside End-->
+
+    <!--Main Start-->
+    <main>
+
+        <div class="kiri">
+            <div class="card">
+                <h3>Informasi Pesanan</h3>
+                <p>No. Pesanan : 277292992</p>
+                <p>Metode Pembayaran : Ovo (lunas)</p>
+                <p>Metode Pengiriman : Prioritas</p>
+                <p>Alamat : Jl. Ketintang </p>
+            </div>
+
+            <div class="card">
+                <h3>Detail Item</h3>
+                <div class="item">
+                    <p>Americano Ice (2)</p> <span>Rp 40.000</span>
+                </div>
+                <div class="item">
+                    <p>Espresso Hot</p> <span>Rp 20.000</span>
+                </div>
+                <div class="item">
+                    <p>Croissant</p> <span>Rp 10.000</span>
+                </div>
+                <div class="subtotal">
+                    <b>Subtotal</b> <b>Rp 70.000</b>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Biaya Lain</h3>
+                <div class="item">
+                    <p>Ongkir</p> <span>Rp 10.000</span>
+                </div>
+                <div class="item">
+                    <p>PPN</p> <span>Rp 7.700</span>
+                </div>
+                <div class="subtotal">
+                    <b>Subtotal</b> <b>Rp 17.700</b>
+                </div>
+            </div>
+        </div>
+
+        <div class="kanan">
+
+            <div class="card">
+                <h3>Total Pesanan</h3>
+                <div class="item">
+                    <p>Item</p> <span>Rp 70.000</span>
+                </div>
+                <div class="item">
+                    <p>Biaya Lain</p> <span>Rp 17.700</span>
+                </div>
+                <div class="total">
+                    <b>Total</b> <b>Rp 87.700</b>
+                </div>
+                <button>Cetak Nota & Siapkan</button>
+            </div>
+
+        </div>
+
+    </main>
+    <!--End Main-->
+</body>
+</html>
