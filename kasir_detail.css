@@ -44,6 +44,11 @@ topside {
     margin: 5px 15px 5px ;
     grid-column: 1;
     font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.breadcrumb:hover {
+    color: black;
 }
 
 .breadcrumb a {
