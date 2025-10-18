@@ -1,15 +1,16 @@
 
 function signinbtn(){
-    var email = document.getElementById('email').value;
-    var pass = document.getElementById('password').value;
+    const email = document.getElementById('email').value;
+    const pass = document.getElementById('password').value;
 
     if (email == "ajicust@gmail.com" && pass == "ajiganteng") {
+        window.location.assign("./Nonchalant_Coffe/index.html")
         alert("login success wahai pelanggan!")
-        window.location.href = "./Nonchalant_Coffe/index.html"
+        
     }
     else if (email == "ajikasir@gmail.com" && pass == "ajitampan"){
+        window.location.assign("./kasir_nonchalant.html")
         alert("login success wahai karyawan!")
-        window.location.href = "kasir_nonchalant.html"
     }
     else {
         alert("yang kamu masukin ada yang salah kocak!")
