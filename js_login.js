@@ -1,5 +1,7 @@
 
+/*button login start */
 function signinbtn(){
+
     const email = document.getElementById('email').value;
     const pass = document.getElementById('password').value;
 
@@ -17,7 +19,26 @@ function signinbtn(){
     }    
 }
 
+/*button login end */
 
+/*button register start */
+
+function signupbtn(){
+    const name = document.getElementById('username').value;
+    const emailnew = document.getElementById('emailnew').value;
+    const passnew = document.getElementById('passwordnew').value;
+
+    if (name == "yuwanda" && emailnew == "ajicust@gmail.com" && passnew == "ajiganteng") {
+        window.location.assign("./Nonchalant_Coffe/index.html")
+        alert("register success wahai pelanggan!")
+    }
+
+    else {
+        alert("yang kamu masukin ada yang salah kocak!")
+    } 
+}
+
+/*button register end */
 
 const container = document.getElementById("container");
 const loginBtn = document.getElementById('login');
