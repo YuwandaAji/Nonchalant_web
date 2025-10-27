@@ -1,0 +1,11 @@
+.container {
+    display:grid;
+    width: 96%;
+    gap: 28.8px;
+    grid-template-columns: 224px auto 224px;
+    margin: 0 auto;
+}
+
+aside {
+    height: 100vh;
+}
