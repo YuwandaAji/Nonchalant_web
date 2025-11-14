@@ -14,19 +14,7 @@
 </head>
 <body>
 
-    <!--Navbar Start-->
-    <nav>
-        
-        <div class="logo">
-            <a href="kasir_nonchalant.html">
-                <img src="logo_new.jpg" alt="logo" width="55" height="55">
-            </a>
-        </div>
 
-        <h1>DETAIL PESANAN</h1>
-
-    </nav>    
-    <!--Navbar End-->
 
     <!--Topside Start-->
     <topside>
@@ -41,11 +29,11 @@
             <h2><b>Qin Shi Huang</b></h2>
         </div>
 
-        <div class="btn-group" role="group">
-            <button type="button" class="btn btn-custom active" id="btn-new">New</button>
-            <button type="button" class="btn btn-custom" id="btn-prep">Diproses</button>
-            <button type="button" class="btn btn-custom" id="btn-del">Delivery</button>
-            <button type="button" class="btn btn-custom" id="btn-done">Selesai</button>
+        <div class="btn-group" role="group" id="btn-bar">
+            <button type="button" class="btn btn-custom" id="btn-new" data-status = "baru">New</button>
+            <button type="button" class="btn btn-custom" id="btn-prep" data-status="disiapkan">Diproses</button>
+            <button type="button" class="btn btn-custom" id="btn-del" data-status="diantar">Delivery</button>
+            <button type="button" class="btn btn-custom" id="btn-done" data-status="selesai">Selesai</button>
         </div>
 
     </topside>
@@ -58,6 +46,7 @@
             <div class="card">
                 <h3>Informasi Pesanan</h3>
                 <p>No. Pesanan : 277292992</p>
+                <p>Metode Pemesanan : Online</p>
                 <p>Metode Pembayaran : Ovo (lunas)</p>
                 <p>Metode Pengiriman : Prioritas</p>
                 <p>Alamat : Jl. Ketintang </p>
@@ -106,7 +95,9 @@
                 <div class="total">
                     <b>Total</b> <b>Rp 87.700</b>
                 </div>
-                <button id="btn-prep">Cetak Nota & Siapkan</button>
+                <div class="btnback">
+                    <a href="kasir_nonchalant.html">Kembali ke Halaman Utama</a>
+                </div>
             </div>
 
         </div>

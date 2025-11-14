@@ -8,7 +8,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: #5F3C25;
+    background: #f6f0ed;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -160,6 +160,8 @@ topside {
 
 main {
     display: flex;
+    align-items: flex-start;
+    background: #f6f0ed;
     justify-content: space-between;
     padding: 20px;
     width: 100%;
@@ -169,8 +171,13 @@ main {
 .column {
     background: #fff;
     flex: 1;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
-    padding: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
 }
 
 .column h2 {

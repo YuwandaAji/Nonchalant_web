@@ -87,10 +87,10 @@ topside {
     background-color: #5F3C25;
 }
 
-.proses .btn.active {
+.btn-custom.active {
     filter: brightness(0.85);
-    color: white;
-    background-color: #5F3C25;
+    color: #5F3C25;
+    background-color: white
     box-shadow: none;
 }
 
@@ -147,8 +147,9 @@ main {
     margin-top: 8px;
 }
 
-.card button {
+.btnback {
   width: 100%;
+  text-align: center;
   background: #5a3218;
   color: white;
   padding: 10px;
@@ -159,7 +160,13 @@ main {
   transition: filter ease 0.2s;
 }
 
-.card button:hover {
+.btnback a {
+    text-decoration: none;
+    width: 100%;
+    color: white;
+}
+
+.btnback:hover {
     filter: brightness(0.85);
 }
 
